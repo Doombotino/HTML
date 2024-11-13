@@ -1,0 +1,90 @@
+body {
+  color: black;
+  background-color: #D8F6CE;
+  font-family: Lato, Arial;
+  text-align: center;
+}
+
+p {
+  font-size:15pt;
+}
+
+.rundes-bild {
+  width: 500px;          
+  height: 500px;         
+  border-radius: 50%;    /* Macht das Bild rund */
+  object-fit: cover;     
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 5px;
+  text-align: left;
+  font-size:25pt;
+  text-align: left;
+}
+
+li {
+  padding-bottom: 5px;
+  text-align: left;
+  font-size:15pt;
+  text-align: left;
+}
+
+h1 {
+  color: purple;
+  padding-bottom: 5px;
+  text-align: center
+  font-size:35pt;
+  text-align: center
+}
+
+.infos {
+  padding-bottom: 5px;
+  text-align: left;
+  font-size:15pt;
+  text-align: center;
+  color: gray;
+}
+
+iframe {
+  padding-bottom: 5px;
+  text-align: left;
+  font-size:15pt;
+  text-align: center;
+  color: gray;
+}
+    table {
+      width: 100%;
+      border-collapse: collapse; /* Verhindert doppelte Ränder */
+      margin: 20px 0;
+      background-color: #fff;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border: 1px solid gray; /* Hinzufügen von Linien für die Zellen */
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: black;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #ddd;
+    }
+
+.credits {
+  padding-bottom: 5px;
+  text-align: left;
+  font-size:11pt;
+  text-align: center;
+  color: black;
+}
+
