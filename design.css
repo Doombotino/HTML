@@ -1,12 +1,54 @@
+/* The animation code */
+@keyframes example {
+  from {background-color: gray;}
+  to {background-color: ghostwhite;}
+	}
+
+/* The element to apply the animation to */
 body {
-  color: black;
-  background-color: #D8F6CE;
-  font-family: Lato, Arial;
+  background-color: lightgray;
+  animation-name: example;
+  animation-duration: 2.5s;
+  animation-direction: alternate;
   text-align: center;
+  font-family: Lato, Arial;
+  animation-iteration-count: 9999;
+
 }
+
+      
+.rab{
+  width: 200px;
+  height: 30px;
+  outline: 0;
+  border: 0;
+  color: white;
+  background: darken(#04B486, 5%);
+}
+      
+@keyframes fadeOut{
+  from{
+    opacity: 1;
+  } 
+  to{
+    opacity: 0;
+  }
+}
+    
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  } 
+  to{
+    opacity: 1;
+  }
+}
+
+
 p {
   font-size:13pt;
   font-family: Serif;
+  
 }
 
 h1 {
@@ -29,6 +71,16 @@ li {
   font-size:17.5pt;
 }
 
+button {
+	  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
 .Homepage {
   padding-bottom: 7px;
   color: black;
@@ -42,6 +94,7 @@ li {
   color: black;
   text-align: center;
   font-size:26pt;
+  text-shadow: 2px 2px;
 }
 
 img {
