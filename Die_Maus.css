@@ -1,0 +1,41 @@
+body {
+  color: black;
+  background-color: #D8F6CE;
+  font-family: Lato, Arial;
+  text-align: center;
+}
+p {
+  font-size:13pt;
+}
+
+h1 {
+  color: purple;
+  text-align: center;
+}
+
+li {
+  padding-bottom: 7px;
+  color: green;
+  text-align: center;
+  font-size:15pt;
+}
+
+.mehr_infos {
+  padding-bottom: 7px;
+  color: black;
+  text-align: center;
+  font-size:17.5pt;
+}
+
+.Credits {
+  padding-bottom: 7px;
+  color: black;
+  text-align: center;
+  font-size:11pt;
+}
+
+img {
+border-radius: 300px;
+-moz-border-radius: 300px;
+-webkit-border-radius: 300px
+}
